@@ -1,0 +1,15 @@
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/bin/Debug/net7.0/Buoi_3
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/bin/Debug/net7.0/Buoi_3.deps.json
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/bin/Debug/net7.0/Buoi_3.runtimeconfig.json
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/bin/Debug/net7.0/Buoi_3.dll
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/bin/Debug/net7.0/Buoi_3.pdb
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/Buoi_3.csproj.AssemblyReference.cache
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/Buoi_3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/Buoi_3.AssemblyInfoInputs.cache
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/Buoi_3.AssemblyInfo.cs
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/Buoi_3.csproj.CoreCompileInputs.cache
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/Buoi_3.dll
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/refint/Buoi_3.dll
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/Buoi_3.pdb
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/Buoi_3.genruntimeconfig.cache
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/ref/Buoi_3.dll

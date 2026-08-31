@@ -1,0 +1,70 @@
+﻿using System;
+
+namespace Buoi_3
+{
+    public class Cau_6
+    {
+        public static string BoDauTiengViet(string text)
+        {
+            string[] tuCoDau = new string[] {
+                "aàáạảãâầấậẩẫăằắặẳẵ", "eèéẹẻẽêềếệểễ", "iìíịỉĩ",
+                "oòóọỏõôồốộổỗơờớợởỡ", "uùúụủũưừứựửữ", "yỳýỵỷỹ", "dđ"
+            };
+            string[] tuKhongDau = new string[] { "a", "e", "i", "o", "u", "y", "d" };
+
+            text = text.ToLower();
+            for (int i = 0; i < tuCoDau.Length; i++)
+            {
+                for (int j = 0; j < tuCoDau[i].Length; j++)
+                {
+                    text = text.Replace(tuCoDau[i][j], tuKhongDau[i][0]);
+                }
+            }
+            return text;
+        }
+
+        public static void Run()
+        {
+            Console.Write("Nhập họ tên thô: ");
+            string hoTenTho = Console.ReadLine() ?? "";
+            string[] cacTu = hoTenTho.Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+            if (cacTu.Length == 0)
+            {
+                Console.WriteLine("Họ tên không hợp lệ!");
+                return;
+            }
+
+            for (int i = 0; i < cacTu.Length; i++)
+            {
+                string tu = cacTu[i].ToLower();
+                cacTu[i] = tu.Substring(0, 1).ToUpper() + tu.Substring(1);
+            }
+
+            string hoTenChuanHoa = string.Join(" ", cacTu);
+
+            string ho = cacTu[0];
+            string ten = cacTu[cacTu.Length - 1];
+            string tenDem = "";
+
+            if (cacTu.Length > 2)
+            {
+                string[] mangTenDem = new string[cacTu.Length - 2];
+                Array.Copy(cacTu, 1, mangTenDem, 0, cacTu.Length - 2);
+                tenDem = string.Join(" ", mangTenDem);
+            }
+
+            string hoKhongDau = BoDauTiengViet(ho);
+            string tenKhongDau = BoDauTiengViet(ten);
+            string tenDemKhongDau = BoDauTiengViet(tenDem).Replace(" ", "");
+
+            string username = $"{tenKhongDau}.{hoKhongDau}{tenDemKhongDau}";
+            string email = username + "@company.edu.vn";
+
+            Console.WriteLine($"Họ tên chuẩn hóa: {hoTenChuanHoa}");
+            Console.WriteLine($"Họ: {ho} | Tên đệm: {tenDem} | Tên: {ten}");
+            Console.WriteLine($"Username tạo tự động: {username}");
+            Console.WriteLine($"Email cấp phát: {email}");
+        }
+    }
+}

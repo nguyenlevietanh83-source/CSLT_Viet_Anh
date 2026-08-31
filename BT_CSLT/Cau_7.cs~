@@ -1,0 +1,36 @@
+﻿using System;
+
+namespace Buoi_3
+{
+    public class Cau7
+    {
+        public static void Run()
+        {
+            Console.WriteLine("--- INPUT ---");
+
+            Console.Write("Quãng đường (km): ");
+            double.TryParse(Console.ReadLine(), out double quangDuong);
+
+            Console.Write("Mức tiêu hao (L/100km): ");
+            double.TryParse(Console.ReadLine(), out double mucTieuHao);
+
+            Console.Write("Giá xăng (VNĐ/Lít): ");
+            decimal.TryParse(Console.ReadLine(), out decimal giaXang);
+
+            Console.Write("Số người đi: ");
+            int.TryParse(Console.ReadLine(), out int soNguoi);
+
+            double tongSoLitXang = (quangDuong / 100.0) * mucTieuHao;
+
+            decimal tongChiPhi = (decimal)tongSoLitXang * giaXang;
+
+            decimal chiPhiMoiNguoiThucTe = tongChiPhi / soNguoi;
+            decimal chiPhiMoiNguoiLamTron = (decimal)Math.Ceiling((double)chiPhiMoiNguoiThucTe / 1000.0) * 1000m;
+
+            Console.WriteLine("\n--- OUTPUT ---");
+            Console.WriteLine($"Tổng nhiên liệu tiêu thụ: {tongSoLitXang:F2} Lít");
+            Console.WriteLine($"Tổng chi phí xăng dầu: {tongChiPhi:N0} VNĐ");
+            Console.WriteLine($"Chi phí mỗi người: {chiPhiMoiNguoiLamTron:N0} VNĐ");
+        }
+    }
+}

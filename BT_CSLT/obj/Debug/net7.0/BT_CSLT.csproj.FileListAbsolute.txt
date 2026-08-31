@@ -1,0 +1,15 @@
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/bin/Debug/net7.0/BT_CSLT
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/bin/Debug/net7.0/BT_CSLT.deps.json
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/bin/Debug/net7.0/BT_CSLT.runtimeconfig.json
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/bin/Debug/net7.0/BT_CSLT.dll
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/bin/Debug/net7.0/BT_CSLT.pdb
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/BT_CSLT.csproj.AssemblyReference.cache
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/BT_CSLT.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/BT_CSLT.AssemblyInfoInputs.cache
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/BT_CSLT.AssemblyInfo.cs
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/BT_CSLT.csproj.CoreCompileInputs.cache
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/BT_CSLT.dll
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/refint/BT_CSLT.dll
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/BT_CSLT.pdb
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/BT_CSLT.genruntimeconfig.cache
+/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/Debug/net7.0/ref/BT_CSLT.dll

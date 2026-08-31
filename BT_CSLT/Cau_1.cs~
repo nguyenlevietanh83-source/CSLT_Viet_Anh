@@ -1,0 +1,14 @@
+﻿using System;
+
+namespace Buoi_3  // <--- Lệnh 'using Buoi_3;' ở program.cs sẽ nhận diện được
+{
+    public class Cau_1
+    {
+        public static void Run()
+        {
+            // Code câu 1 của bạn ở đây...
+            Console.Write("Hello World");
+            Console.ReadKey();
+        }
+    }
+}

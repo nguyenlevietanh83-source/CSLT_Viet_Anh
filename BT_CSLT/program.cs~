@@ -1,0 +1,91 @@
+﻿using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.InputEncoding = System.Text.Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("================ MENU BÀI TẬP ================");
+                Console.WriteLine("1. Chạy Bài 1 (Chào hỏi & Nhập tên)");
+                Console.WriteLine("2. Chạy Bài 2 (Tính tổng 2 số)");
+                Console.WriteLine("3. Chạy Bài 3 (Kiểm tra số chẵn / lẻ)");
+                Console.WriteLine("0. Thoát chương trình");
+                Console.WriteLine("==============================================");
+                Console.Write("Mời bạn chọn bài tập (0-3): ");
+
+                string chon = Console.ReadLine();
+
+                Console.Clear();
+                switch (chon)
+                {
+                    case "1":
+                        BaiTap1();
+                        break;
+                    case "2":
+                        BaiTap2();
+                        break;
+                    case "3":
+                        BaiTap3();
+                        break;
+                    case "0":
+                        Console.WriteLine("Cảm ơn bạn đã sử dụng chương trình!");
+                        return;
+                    default:
+                        Console.WriteLine("Lựa chọn không hợp lệ!");
+                        break;
+                }
+
+                Console.WriteLine("\n----------------------------------------------");
+                Console.WriteLine("Bấm phím bất kỳ để quay lại Menu...");
+                Console.ReadKey();
+            }
+        }
+
+        // ===================================================
+        // KHU VỰC VIẾT CODE CHO TỪNG BÀI TẬP
+        // ===================================================
+
+        // Bài 1: Chào hỏi
+        static void BaiTap1()
+        {
+            Console.WriteLine("=== BÀI 1: CHÀO HỎI ===");
+            Console.Write("Nhập tên của bạn: ");
+            string ten = Console.ReadLine();
+            Console.WriteLine($"Xin chào {ten}!");
+        }
+
+        // Bài 2: Tính tổng
+        static void BaiTap2()
+        {
+            Console.WriteLine("=== BÀI 2: TÍNH TỔNG 2 SỐ ===");
+            Console.Write("Nhập số a: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.Write("Nhập số b: ");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Tổng của {a} và {b} là: {a + b}");
+        }
+
+        // Bài 3: Kiểm tra chẵn/lẻ
+        static void BaiTap3()
+        {
+            Console.WriteLine("=== BÀI 3: KIỂM TRA CHẴN/LẺ ===");
+            Console.Write("Nhập một số nguyên: ");
+            int n = int.Parse(Console.ReadLine());
+            if (n % 2 == 0)
+            {
+                Console.WriteLine($"{n} là số chẵn.");
+            }
+            else
+            {
+                Console.WriteLine($"{n} là số lẻ.");
+            }
+        }
+    }
+}

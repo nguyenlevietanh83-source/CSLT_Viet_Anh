@@ -1,0 +1,25 @@
+﻿using System;
+namespace Buoi_3
+{
+	public class Cau4
+	{
+		public Cau4()
+		{
+			Console.Write("Nhập ngày sinh (dd/MM/yyyy):");
+			DateTime.TryParse(Console.ReadLine(), out DateTime ngaySinh);
+			DateTime ngayHienTai = DateTime.Now.Date;
+			int soTuoi = ngayHienTai.Year - ngaySinh.Year;
+			DateTime sinhNhatKeTiep = new DateTime(ngaySinh.Day, ngaySinh.Month, ngayHienTai.Year);
+			if (sinhNhatKeTiep < ngayHienTai)
+			{
+				sinhNhatKeTiep = sinhNhatKeTiep.AddYears(1);
+            }
+            TimeSpan khoangCachSinhNhat = sinhNhatKeTiep - ngaySinh;
+			TimeSpan soNgayDaSong = ngayHienTai - ngaySinh;
+			Console.WriteLine($"Tuổi hiện tại: {soTuoi} tuổi");
+            Console.WriteLine($"Bạn đã sống tổng cộng: {soNgayDaSong} ngày");
+            Console.WriteLine($"Sinh nhật tiếp theo còn: {khoangCachSinhNhat} ngày");
+        }
+    }
+}
+
