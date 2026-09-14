@@ -1,0 +1,37 @@
+﻿using System;
+namespace BT_Buoi4
+{
+	public class Ex_03
+	{
+		public static void Run()
+        {
+			/*
+• Ngữ cảnh: Máy ATM thực hiện kiểm tra tính hợp lệ của giao dịch rút tiền.
+• Yêu cầu:
+-Nhập số dư tài khoản và số tiền muốn rút.
+- Số tiền rút phải lớn hơn 0.
+- Số tiền rút phải là bội số của 50,000 VNĐ.
+- Số tiền rút không vượt quá số dư hiện tại.
+- Hạn mức rút tối đa 5,000,000 VNĐ / lần.
+- Xuất ra lý do từ chối cụ thể nếu không đủ điều kiện, hoặc thông báo rút thành công.
+• Công cụ gợi ý: if-else
+			*/
+			Console.Write( "Nhap so du tai khoan: ");
+			bool soDuDung = int.TryParse (Console.ReadLine(), out int soDu);
+			Console.Write( " Nhap so tien muon rut: ");
+            bool tienRutDung = int.TryParse(Console.ReadLine(), out int tienRut);
+			int soDuConLai;
+			while (soDuDung && tienRutDung)
+			{
+                while (tienRut > 0 && tienRut <= soDu && tienRut % 50000 == 0)
+                {
+					soDuConLai = soDu - tienRut;
+					if ()
+				}
+
+            }
+		
+        }
+    }
+}
+

@@ -1,0 +1,15 @@
+/Users/macbookpro/projects/VA/VA/bin/Debug/net7.0/BT_Buoi4
+/Users/macbookpro/projects/VA/VA/bin/Debug/net7.0/BT_Buoi4.deps.json
+/Users/macbookpro/projects/VA/VA/bin/Debug/net7.0/BT_Buoi4.runtimeconfig.json
+/Users/macbookpro/projects/VA/VA/bin/Debug/net7.0/BT_Buoi4.dll
+/Users/macbookpro/projects/VA/VA/bin/Debug/net7.0/BT_Buoi4.pdb
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/BT_Buoi4.csproj.AssemblyReference.cache
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/BT_Buoi4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/BT_Buoi4.AssemblyInfoInputs.cache
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/BT_Buoi4.AssemblyInfo.cs
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/BT_Buoi4.csproj.CoreCompileInputs.cache
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/BT_Buoi4.dll
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/refint/BT_Buoi4.dll
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/BT_Buoi4.pdb
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/BT_Buoi4.genruntimeconfig.cache
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/ref/BT_Buoi4.dll

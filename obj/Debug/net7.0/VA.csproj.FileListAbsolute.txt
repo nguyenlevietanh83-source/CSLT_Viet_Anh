@@ -1,0 +1,15 @@
+/Users/macbookpro/projects/VA/VA/bin/Debug/net7.0/VA
+/Users/macbookpro/projects/VA/VA/bin/Debug/net7.0/VA.deps.json
+/Users/macbookpro/projects/VA/VA/bin/Debug/net7.0/VA.runtimeconfig.json
+/Users/macbookpro/projects/VA/VA/bin/Debug/net7.0/VA.dll
+/Users/macbookpro/projects/VA/VA/bin/Debug/net7.0/VA.pdb
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/VA.csproj.AssemblyReference.cache
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/VA.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/VA.AssemblyInfoInputs.cache
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/VA.AssemblyInfo.cs
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/VA.csproj.CoreCompileInputs.cache
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/VA.dll
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/refint/VA.dll
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/VA.pdb
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/VA.genruntimeconfig.cache
+/Users/macbookpro/projects/VA/VA/obj/Debug/net7.0/ref/VA.dll

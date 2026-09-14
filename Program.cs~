@@ -1,0 +1,79 @@
+﻿using System;
+namespace BT_Buoi4
+{
+    internal class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            bool continueApp = true;
+
+            while (continueApp)
+            {
+                Console.WriteLine( "\n======QUAN LY BAI TAP======");
+                Console.WriteLine( "1. BAI TAP TREN LOP");
+                Console.WriteLine( "2. BAI TAP VE NHA");
+                Console.WriteLine( "  2.1. BAI 1 ");
+                Console.WriteLine( "  2.1. BAI 2 ");
+                Console.WriteLine("  2.1. BAI 3 ");
+                Console.WriteLine("  2.1. BAI 4 ");
+                Console.WriteLine("  2.1. BAI 5 ");
+                Console.WriteLine("  2.1. BAI 6 ");
+                Console.WriteLine("  2.1. BAI 7 ");
+                Console.WriteLine("  2.1. BAI 8 ");
+                Console.WriteLine("  2.1. BAI 9 ");
+                Console.WriteLine("  2.1. BAI 10 ");
+                Console.Write ( " Nhập số bài tập bạn muốn chạy : ");
+
+                string choice = Console.ReadLine();
+                switch (choice) {
+                    case "1":
+                        Ex_00.Run();
+                        break;
+                    case "2.1":
+                        Ex_01.Run();
+                        break;
+
+                    case "2.2":
+                        Ex_02.Run();
+                        break;
+                    case "2.3":
+                        Ex_03.Run();
+                        break;
+
+                    case "2.4":
+                        Ex_04.Run();
+                        break;
+                    case "2.5":
+                        Ex_05.Run();
+                        break;
+
+                    case "2.6":
+                        Ex_06.Run();
+                        break;
+                    case "2.7":
+                        Ex_07.Run();
+                        break;
+
+                    case "2.8":
+                        Ex_09.Run();
+                        break;
+                    case "2.9":
+                        Ex_01.Run();
+                        break;
+
+                    case "2.10":
+                        Ex_02.Run();
+                        break;
+                    default:
+                        Console.WriteLine("Lua chon khong hop le. Vui long chon lai!");
+                        break;
+
+                }
+
+
+            }
+        }
+    }
+}
+

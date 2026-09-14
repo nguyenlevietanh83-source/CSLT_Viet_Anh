@@ -1,0 +1,43 @@
+﻿using System;
+namespace BT_Buoi4
+{
+	public class Ex_01
+	{
+		public Ex_01()
+		{
+			/*
+			Bài 1: Hệ thống tính giá vé xem phim (Cinema Ticket)
+• Ngữ cảnh: Rạp chiếu phim áp dụng giá vé khác nhau tùy thuộc vào độ tuổi và suất chiếu.
+• Yêu cầu:
+- Người > 60 tuổi hoặc < 12 tuổi: Giá vé là 50,000 VNĐ.
+- Từ 12 đến 60 tuổi: Suất chiếu ban ngày (trước 17h) giá 80,000 VNĐ, suất chiếu buổi tối (từ 17h trở đi) giá 
+110,000 VNĐ.
+• Công cụ gợi ý: if-else lồng nhau hoặc toán tử logic &&, ||
+			 */
+			Console.WriteLine("Tuoi cua ban la: ");
+			bool tuoiDung = int.TryParse(Console.ReadLine(), out int tuoi);
+            Console.WriteLine("Gio chieu cua ban la: ");
+            bool gioDung= int.TryParse(Console.ReadLine(), out int gio);
+
+            while (tuoiDung && gioDung)
+			{
+				if ( tuoi > 60 || tuoi < 12)
+				{
+					Console.WriteLine( "Gia ve cua ban la 50.000D");
+				}
+				else
+				{
+					if (gio < 17 )
+					{
+                        Console.WriteLine("Gia ve cua ban la 80.000D");
+                    }
+					else
+					{
+                        Console.WriteLine("Gia ve cua ban la 110.000D");
+                    }
+                }
+			}
+        }
+    }
+}
+
