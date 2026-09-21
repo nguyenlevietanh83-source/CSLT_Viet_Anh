@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbookpro/projects/BT_CSLT/BT_CSLT/Buoi_3.csproj",
+      "projectUniqueName": "/Users/macbookpro/projects/CSLT_Viet_Anh/BT_CSLT/Buoi_3.csproj",
       "projectName": "Buoi_3",
-      "projectPath": "/Users/macbookpro/projects/BT_CSLT/BT_CSLT/Buoi_3.csproj",
+      "projectPath": "/Users/macbookpro/projects/CSLT_Viet_Anh/BT_CSLT/Buoi_3.csproj",
       "packagesPath": "/Users/macbookpro/.nuget/packages/",
-      "outputPath": "/Users/macbookpro/projects/BT_CSLT/BT_CSLT/obj/",
+      "outputPath": "/Users/macbookpro/projects/CSLT_Viet_Anh/BT_CSLT/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/macbookpro/.nuget/NuGet/NuGet.Config"
