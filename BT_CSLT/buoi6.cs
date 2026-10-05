@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System.Runtime.Intrinsics.X86;
 
 namespace buoi6
@@ -20,3 +21,16 @@ namespace buoi6
         }
     }
 }
+=======
+﻿using System;
+namespace Buoi_3
+{
+	public class buoi6
+	{
+		public buoi6()
+		{
+		}
+	}
+}
+
+>>>>>>> 8f66d7cd87cc56b22662cca4900b5a64f7edcd7d

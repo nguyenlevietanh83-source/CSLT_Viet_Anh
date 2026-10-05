@@ -1,4 +1,5 @@
 ﻿using System;
+<<<<<<< HEAD
 
 namespace BT_Buoi4
 {
@@ -22,3 +23,15 @@ namespace BT_Buoi4
         }
     }
 }
+=======
+namespace Buoi_3
+{
+	public class B6_Bai01
+	{
+		public B6_Bai01()
+		{
+		}
+	}
+}
+
+>>>>>>> 8f66d7cd87cc56b22662cca4900b5a64f7edcd7d
